@@ -25,6 +25,6 @@ local Section = Tab:NewSection("AIMBOT")
 Section:NewButton("AIMBOT", "ButtonInfo", function()
      loadstring(game:HttpGet("https://raw.githubusercontent.com/sashanz/-/refs/heads/main/redme.lua"))()
 end)
-Section:NewSlider("SpeedHak", "SliderInfo", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
+Section:NewSlider("SpeedHak", "SliderInfo", 500, 16, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
