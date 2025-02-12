@@ -27,4 +27,4 @@ Section:NewButton("AIMBOT", "ButtonInfo", function()
 end)
 Section:NewSlider("SpeedHak", "SliderInfo", 500, 16, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
-end
+end)
